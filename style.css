@@ -1,58 +1,74 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #FFFF00;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 #main {
-    max-width: 800px;
-    margin: 0 auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #title {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
 }
 
 #img-div {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 #image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 2px solid #ddd;
 }
 
 #img-caption {
-    font-style: italic;
-    margin-top: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+  color: #555;
 }
 
 #tribute-info {
-    margin-bottom: 20px;
-    font-size: 1.2em;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 #tribute-link {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #3498db;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background 0.3s;
 }
 
 #tribute-link:hover {
-    background-color: #0056b3;
+  background: #2980b9;
 }
